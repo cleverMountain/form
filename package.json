@@ -1,0 +1,23 @@
+{
+  "name": "form",
+  "version": "1.0.0",
+  "description": "表单封装",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleverMountain/form.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cleverMountain/form/issues"
+  },
+  "homepage": "https://github.com/cleverMountain/form#readme",
+  "dependencies": {
+    "vite": "^4.1.4"
+  }
+}
