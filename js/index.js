@@ -5,7 +5,7 @@ const formData = {
   age: 0,
   username: '',
   password: '',
-  gender: '',
+  gender: 'male',
   occupation: '',
   hobbies: [],
   intro: ''
@@ -58,7 +58,7 @@ FormCheck.create('#userForm', '.user-form', {
     console.log(key, value)
   },
   noPass(key, value, error) {
-    console.log(key, value, error)
+    console.warn(key, value, error)
   },
   handSubmit(formData) {
     console.log(formData)
